@@ -44,7 +44,7 @@
   </project>
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="sakura"/>
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="sakura"/>
-  <project path="packages/apps/Settings" name="packages_apps_Launcher3" groups="pdk-fs" remote="sakura"/>
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="sakura"/>
   <project path="vendor/lineage" name="vendor_sakura" remote="sakura" />
 
    <!--Aosp additions -->
