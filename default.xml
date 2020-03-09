@@ -14,7 +14,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-10.0.0_r27" />
+           revision="refs/tags/android-10.0.0_r31" />
            
   <remote  name="sakura"
            fetch="https://github.com/ProjectSakura"
@@ -667,6 +667,7 @@
   <project path="test/vti/fuzz_test_serving" name="platform/test/vti/fuzz_test_serving" groups="vts,projectarch,pdk" remote="aosp" />
   <project path="test/vti/test_serving" name="platform/test/vti/test_serving" groups="vts,projectarch,pdk" remote="aosp" />
   <project path="test/vts" name="platform/test/vts" groups="vts,pdk" remote="aosp" />
+  <project path="tools/apifinder" name="platform/tools/apifinder" groups="pdk,tools" remote="aosp" />
   <project path="test/vts-testcase/fuzz" name="platform/test/vts-testcase/fuzz" groups="vts,projectarch,pdk" remote="aosp" />
   <project path="test/vts-testcase/hal" name="platform/test/vts-testcase/hal" groups="vts,pdk" remote="aosp" />
   <project path="test/vts-testcase/hal-trace" name="platform/test/vts-testcase/hal-trace" groups="vts,pdk" remote="aosp" />
