@@ -48,6 +48,7 @@
   <project path="packages/apps/BlurView" name="packages_apps_BlurView" groups="pdk-fs" remote="sakura"/>
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="sakura"/>
   <project path="packages/apps/OmniStyle" name="packages_apps_Omnistyle" groups="pdk-fs" remote="sakura"/>
+  <project path="packages/apps/Updater" name="packages_apps_Updater" groups="pdk-fs" remote="sakura"/>
   <project path="external/toybox" name="LineageOS/android_external_toybox" groups="pdk" />
   <project path="vendor/lineage" name="vendor_sakura" remote="sakura" />
 
