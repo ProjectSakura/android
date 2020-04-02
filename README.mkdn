@@ -1,3 +1,11 @@
+-----------------------------------------------------------------------------
+
+<p align="center">
+ <img src="https://github.com/ProjectSakura/android/blob/test/sakura.jpg" > 
+</p>
+
+-----------------------------------------------------------------------------
+
 Project Sakura
 ===========
 
@@ -16,3 +24,27 @@ Then to sync up:
 repo sync
 ```
 ----------------
+
+Start the build:-
+=================
+
+You can use your Lineage OS trees to build Sakura without any changes. 
+
+```bash
+  . build/envsetup.sh
+  lunch lineage_<devicecodename>-userdebug
+  mka bacon -jx
+```
+-----------------------------------------------------------------------------
+
+Credits:-
+=======
+ * [**AOSP**](https://android.googlesource.com)
+ * [**LineageOS**](https://github.com/LineageOS)
+ * [**CrDroid**](https://github.com/crdroidandroid)
+ * [**AOSiP**](https://github.com/AOSiP)
+ * [**DerpFest**](https://github.com/DerpLab)
+ * [**Superior OS**](https://github.com/SuperiorOS)
+ 
+ Contact me if I miss any credits and I will fix it :)
+-----------------------------------------------------------------------------
