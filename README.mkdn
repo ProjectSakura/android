@@ -49,3 +49,15 @@ Credits:-
  
  Contact me if I miss any credits and I will fix it :)
 -----------------------------------------------------------------------------
+
+Download Stats
+==============
+
+[![Download Sakura](https://img.shields.io/sourceforge/dd/projectsakura.svg)](https://sourceforge.net/projects/projectsakura/files/latest/download) 
+
+[![Download Sakura](https://img.shields.io/sourceforge/dw/projectsakura.svg)](https://sourceforge.net/projects/projectsakura/files/latest/download) 
+
+[![Download Sakura](https://img.shields.io/sourceforge/dm/projectsakura.svg)](https://sourceforge.net/projects/projectsakura/files/latest/download) 
+
+[![Download Sakura](https://img.shields.io/sourceforge/dt/projectsakura.svg)](https://sourceforge.net/projects/projectsakura/files/latest/download) 
+---------------------------------------------------------------------------------
