@@ -7,10 +7,20 @@
 -----------------------------------------------------------------------------
 
 Project Sakura
-===========
+==============
+
+Credits:-
+=======
+ * [**AOSP**](https://android.googlesource.com)
+ * [**LineageOS**](https://github.com/LineageOS)
+ * [**CrDroid**](https://github.com/crdroidandroid)
+ * [**AOSiP**](https://github.com/AOSiP)
+ * [**DerpFest**](https://github.com/DerpLab)
+ * [**Superior OS**](https://github.com/SuperiorOS)
+ * [**ExtendedUI**](https://github.com/Extended-UI) 
 
 Getting started
----------------
+===============
 
 To get started with Android/Project-Sakura, you'll need to get
 familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
@@ -36,18 +46,6 @@ You can use your Lineage OS trees to build Sakura without any changes.
   lunch lineage_<devicecodename>-userdebug
   mka bacon -jx
 ```
------------------------------------------------------------------------------
-
-Credits:-
-=======
- * [**AOSP**](https://android.googlesource.com)
- * [**LineageOS**](https://github.com/LineageOS)
- * [**CrDroid**](https://github.com/crdroidandroid)
- * [**AOSiP**](https://github.com/AOSiP)
- * [**DerpFest**](https://github.com/DerpLab)
- * [**Superior OS**](https://github.com/SuperiorOS)
- 
- Contact me if I miss any credits and I will fix it :)
 -----------------------------------------------------------------------------
 
 Download Stats
