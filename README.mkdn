@@ -6,10 +6,7 @@
 
 -----------------------------------------------------------------------------
 
-Project Sakura
-==============
-
-Credits:-
+Credits
 =======
  * [**AOSP**](https://android.googlesource.com)
  * [**LineageOS**](https://github.com/LineageOS)
@@ -36,7 +33,7 @@ repo sync --current-branch --force-sync --no-clone-bundle --no-tags --optimized-
 ```
 ----------------
 
-Start the build:-
+Start the build
 =================
 
 You can use your Lineage OS trees to build Sakura without any changes. 
