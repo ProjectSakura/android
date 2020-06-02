@@ -56,3 +56,9 @@ Download Stats
 
 [![Download Sakura](https://img.shields.io/sourceforge/dt/projectsakura.svg)](https://sourceforge.net/projects/projectsakura/files/latest/download) 
 ---------------------------------------------------------------------------------
+
+Sponsored by
+==============
+<p align="center"> 
+<a href="https://my.xsl.tel/"><img src="https://i.imgur.com/yOcPbYf.png" alt="xsltel" height="100" width="400"></a> 
+</p>
