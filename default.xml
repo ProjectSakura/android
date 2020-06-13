@@ -20,6 +20,10 @@
            fetch="https://github.com/ProjectSakura"
            revision="10" />
 
+  <remote  name="Sakura-Devices"
+           fetch="https://github.com/Sakura-Devices"
+           revision="10" />
+
   <default revision="refs/heads/lineage-17.1"
            remote="github"
            sync-c="true"
