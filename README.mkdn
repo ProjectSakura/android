@@ -1,7 +1,7 @@
 -----------------------------------------------------------------------------
 
 <p align="center">
- <img src="https://github.com/ProjectSakura/android/blob/10/sakura.jpg"> 
+ <img src="https://i.imgur.com/3n4NiPo.jpg"> 
 </p>
 
 -----------------------------------------------------------------------------
