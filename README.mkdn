@@ -1,10 +1,23 @@
 -----------------------------------------------------------------------------
-
-<p align="center">
- <img src="https://i.imgur.com/3n4NiPo.jpg"> 
-</p>
+<div align="center">
+<img src="https://i.imgur.com/3n4NiPo.jpg"> 
+<br>
+<br>
+<strong><i>A Custom ROM based on Lineage OS.</i></strong>
+<br>
+<br>
+<a href="https://sourceforge.net/projects/projectsakura/">
+<img src="https://img.shields.io/sourceforge/dt/projectsakura?style=for-the-badge">
+</a>
+<a href="https://github.com/ProjectSakura/Bug_Tracker">
+<img src="https://img.shields.io/github/issues/ProjectSakura/Bug_Tracker?style=for-the-badge">
+</a>
+<a href="https://t.me/ProjectSakura">
+<img src="https://img.shields.io/badge/Telegram-Chat-blue?style=for-the-badge">
+</div>
 
 -----------------------------------------------------------------------------
+
 
 Credits
 =======
@@ -44,18 +57,6 @@ You can use your Lineage OS trees to build Sakura without any changes.
   mka bacon -jx
 ```
 -----------------------------------------------------------------------------
-
-Download Stats
-==============
-
-[![Download Sakura](https://img.shields.io/sourceforge/dd/projectsakura.svg)](https://sourceforge.net/projects/projectsakura/files/latest/download) 
-
-[![Download Sakura](https://img.shields.io/sourceforge/dw/projectsakura.svg)](https://sourceforge.net/projects/projectsakura/files/latest/download) 
-
-[![Download Sakura](https://img.shields.io/sourceforge/dm/projectsakura.svg)](https://sourceforge.net/projects/projectsakura/files/latest/download) 
-
-[![Download Sakura](https://img.shields.io/sourceforge/dt/projectsakura.svg)](https://sourceforge.net/projects/projectsakura/files/latest/download) 
----------------------------------------------------------------------------------
 
 Sponsored by
 ==============
