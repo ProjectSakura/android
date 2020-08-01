@@ -56,7 +56,7 @@
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" groups="pdk-fs" remote="sakura"/>
   <project path="external/toybox" name="LineageOS/android_external_toybox" groups="pdk" />
   <project path="vendor/lineage" name="vendor_sakura" remote="sakura" />
-  <project path="vendor/gapps" name="LordShen/vendor_gapps" remote="gitlab" revision="ten" clone-depth="1" />
+  <project path="vendor/gapps" name="LordShen/vendor_google_gapps" remote="gitlab" revision="10" clone-depth="1" />
 
    <!--Aosp additions -->
   <project path="art" name="LineageOS/android_art" groups="pdk" />
