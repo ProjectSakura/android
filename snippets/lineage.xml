@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- LineageOS additions -->
+  <!--Sakura additions -->
   <project path="android" name="android" remote="sakura"/>
-  <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="sakura" />
+  <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="sakura" />
+  <project path="lineage-sdk" name="lineage-sdk" remote="sakura"/>
+  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="sakura"/>
+
+  <!-- LineageOS additions -->
+  <project path="device/lineage/atv" name="LineageOS/android_device_lineage_atv" />
   <project path="external/bash" name="LineageOS/android_external_bash" />
   <project path="external/exfat" name="LineageOS/android_external_exfat" />
   <project path="external/htop" name="LineageOS/android_external_htop" />
@@ -21,10 +26,8 @@
   <project path="external/vim" name="LineageOS/android_external_vim" />
   <project path="external/zip" name="LineageOS/android_external_zip" />
   <project path="hardware/broadcom/nfc" name="LineageOS/android_hardware_broadcom_nfc" />
-  <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="sakura" />
   <project path="hardware/lineage/livedisplay" name="LineageOS/android_hardware_lineage_livedisplay" />
   <!--<project path="hardware/lineage/telephony" name="LineageOS/android_hardware_lineage_telephony" />-->
-  <project path="lineage-sdk" name="lineage-sdk" remote="sakura"/>
   <!--<project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />-->
   <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
@@ -34,7 +37,6 @@
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
   <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" />
   <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" />
-  <project path="packages/apps/LineageParts" name="LineageOS/android_packages_apps_LineageParts" />
   <!--<project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" />-->
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
   <project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
