@@ -46,15 +46,17 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="sakura"/>  
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="sakura"/>
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" groups="pdk-fs" remote="sakura"/>
+  <project path="external/toybox" name="LineageOS/android_external_toybox" groups="pdk" />  
   <project path="packages/apps/SakuraSettings" name="packages_apps_SakuraSettings" groups="pdk-fs" remote="sakura"/>
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="sakura"/>
   <project path="packages/apps/BlurView" name="packages_apps_BlurView" groups="pdk-fs" remote="sakura"/>
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="sakura"/>
   <project path="packages/apps/OmniStyle" name="packages_apps_Omnistyle" groups="pdk-fs" remote="sakura"/>
   <project path="packages/apps/Updater" name="packages_apps_Updater" groups="pdk-fs" remote="sakura"/>
-  <project path="external/asus/stitchimage" name="external_asus_stitchimage" groups="pdk-fs" remote="sakura"/>
-  <project path="external/toybox" name="LineageOS/android_external_toybox" groups="pdk" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="sakura"/>  
   <project path="vendor/lineage" name="vendor_sakura" remote="sakura" />
   <project path="vendor/addons" name="vendor_addons" remote="sakura" />
   <project path="vendor/google/gapps" name="LordShen/vendor_google_gapps" remote="gitlab" revision="10" clone-depth="1" />
@@ -183,7 +185,7 @@
   <project path="external/google-fruit" name="platform/external/google-fruit" groups="pdk" remote="aosp" />
   <project path="external/google-styleguide" name="platform/external/google-styleguide" groups="pdk" remote="aosp" />
   <project path="external/googletest" name="platform/external/googletest" groups="pdk" remote="aosp" />
-  <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" />
+  <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk" />  
   <project path="external/grpc-grpc" name="platform/external/grpc-grpc" groups="pdk,tradefed" remote="aosp" />
   <project path="external/grpc-grpc-java" name="platform/external/grpc-grpc-java" groups="pdk,tradefed" remote="aosp" />
   <project path="external/guava" name="platform/external/guava" groups="pdk" remote="aosp" />
@@ -410,7 +412,6 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" remote="aosp" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" />
-  <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
@@ -576,7 +577,6 @@
   <project path="packages/services/Car" name="platform/packages/services/Car" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/services/Mms" name="LineageOS/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telecomm" name="LineageOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/wallpapers/LivePicker" name="LineageOS/android_packages_wallpapers_LivePicker" groups="pdk-fs" />
   <project path="pdk" name="platform/pdk" groups="pdk" remote="aosp" />
   <project path="platform_testing" name="LineageOS/android_platform_testing" groups="pdk-fs,pdk-cw-fs,cts" />
