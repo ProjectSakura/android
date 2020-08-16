@@ -46,6 +46,25 @@ repo sync --current-branch --force-sync --no-clone-bundle --no-tags --optimized-
 ```
 ----------------
 
+Project Sakura Specific Flags
+=============================
+
+These Flags have to be added in lineage_codename.mk in your device tree.
+
+To compile your build with Lawnchair Launcher:
+```
+LAWNCHAIR_OPTOUT := false
+```
+To compile your build with OnePlus Launcher:
+```
+LAWNCHAIR_OPTOUT := true
+```
+To compile the GApps variant:
+```
+SAKURA_GAPPS := true
+```
+-----------------------------------------------------------------------------
+
 Start the build
 =================
 
