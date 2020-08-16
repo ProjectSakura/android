@@ -62,7 +62,6 @@ LAWNCHAIR_OPTOUT := true
 To compile the GApps variant:
 ```
 SAKURA_GAPPS := true
-TARGET_GAPPS_ARCH := arm64
 ```
 -----------------------------------------------------------------------------
 
