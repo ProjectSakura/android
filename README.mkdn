@@ -1,37 +1,65 @@
-LineageOS
-===========
+-----------------------------------------------------------------------------
+<div align="center">
+<img src="https://github.com/ProjectSakura/SakuraDocs/blob/master/assets/header.png?raw=true"> 
+<br>
+<br>
+<strong><i>A Custom ROM based on Lineage OS.</i></strong>
+<br>
+<br>
+<a href="https://sourceforge.net/projects/projectsakura/">
+<img src="https://img.shields.io/sourceforge/dt/projectsakura?style=for-the-badge">
+</a>
+<a href="https://github.com/ProjectSakura/Bug_Tracker">
+<img src="https://img.shields.io/github/issues/ProjectSakura/Bug_Tracker?style=for-the-badge">
+</a>
+<a href="https://t.me/ProjectSakura">
+<img src="https://img.shields.io/badge/Telegram-Chat-blue?style=for-the-badge">
+</div>
+
+-----------------------------------------------------------------------------
+
+
+Credits
+=======
+ * [**AOSP**](https://android.googlesource.com)
+ * [**LineageOS**](https://github.com/LineageOS)
+ * [**CrDroid**](https://github.com/crdroidandroid)
+ * [**AOSiP**](https://github.com/AOSiP)
+ * [**DerpFest**](https://github.com/DerpLab)
+ * [**Superior OS**](https://github.com/SuperiorOS)
+ * [**ExtendedUI**](https://github.com/Extended-UI) 
 
 Getting started
----------------
+===============
 
-To get started with Android/LineageOS, you'll need to get
+To get started with Android/Project-Sakura, you'll need to get
 familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 ```
-repo init -u git://github.com/LineageOS/android.git -b lineage-18.0
+repo init --depth=1 -u git://github.com/ProjectSakura/android.git -b 11
 ```
 Then to sync up:
 ```
-repo sync
+repo sync --current-branch --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -jx
+(j= no. of cores your system have)
 ```
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
+----------------
 
+Start the build
+=================
 
-Submitting patches
-------------------
-Patches are always welcome! Please submit your patches via LineageOS Gerrit!
+You can use your Lineage OS trees to build Sakura without any changes. 
 
-Simply follow our guide on [how to submit patches](https://wiki.lineageos.org/submitting-patch-howto.html).
+```bash
+  . build/envsetup.sh
+  lunch lineage_<devicecodename>-userdebug
+  mka bacon -jx
+```
+-----------------------------------------------------------------------------
 
-To view the status of your and others' patches, visit [LineageOS Gerrit Code Review](https://review.lineageos.org/).
-
-
-Buildbot
---------
-
-All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build statuses at [LineageOS Jenkins](https://jenkins.lineageos.org/).
-
-Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/).
+Sponsored by
+==============
+<p align="center"> 
+<a href="https://my.xsl.tel/"><img src="https://i.imgur.com/yOcPbYf.png" alt="xsltel" height="100" width="400"></a> 
+</p>
