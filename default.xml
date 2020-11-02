@@ -46,7 +46,7 @@
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="sakura" />  
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="sakura" /> 
   <project path="packages/apps/SakuraSettings" name="packages_apps_SakuraSettings" groups="pdk-fs" remote="sakura" /> 
-  <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />    
+  <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="sakura" />    
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="sakura" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="sakura" />     
   <project path="system/core" name="system_core" groups="pdk" remote="sakura" />  
