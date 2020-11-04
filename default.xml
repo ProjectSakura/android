@@ -44,6 +44,7 @@
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="sakura" />  
   <project path="lineage-sdk" name="lineage-sdk" remote="sakura" />  
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="sakura" />  
+  <project path="packages/apps/OmniStyle" name="packages_apps_Omnistyle" groups="pdk-fs" remote="sakura"/>
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="sakura" /> 
   <project path="packages/apps/SakuraSettings" name="packages_apps_SakuraSettings" groups="pdk-fs" remote="sakura" /> 
   <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="sakura" />    
