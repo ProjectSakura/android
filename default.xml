@@ -41,6 +41,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="sakura" />  
+  <project path="external/motorola/faceunlock" name="LordShen/external_motorola_faceunlock" remote="gitlab" revision="11" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="sakura" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="sakura" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="sakura" />
