@@ -56,6 +56,7 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="sakura" />   
   <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="sakura" />     
+  <project path="prebuilts/prebuiltapks" name="prebuilts_prebuiltapks" remote="sakura" />
   <project path="system/core" name="system_core" groups="pdk" remote="sakura" />  
   <project path="vendor/lineage" name="vendor_sakura" remote="sakura" />   
   <project path="vendor/google/gms" name="LordShen/vendor_google_gms" remote="gitlab" revision="11" clone-depth="1" />
