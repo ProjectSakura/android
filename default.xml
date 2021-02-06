@@ -58,6 +58,7 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="sakura" />     
   <project path="prebuilts/prebuiltapks" name="prebuilts_prebuiltapks" remote="sakura" />
   <project path="system/core" name="system_core" groups="pdk" remote="sakura" />  
+  <project path="vendor/addons" name="vendor_addons" remote="sakura" />
   <project path="vendor/lineage" name="vendor_sakura" remote="sakura" />   
   <project path="vendor/google/gms" name="LordShen/vendor_google_gms" remote="gitlab" revision="11" clone-depth="1" />
 
