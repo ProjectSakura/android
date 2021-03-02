@@ -62,7 +62,7 @@
   <project path="system/core" name="system_core" groups="pdk" remote="sakura" />  
   <project path="vendor/addons" name="vendor_addons" remote="sakura" />
   <project path="vendor/lineage" name="vendor_sakura" remote="sakura" />   
-  <project path="vendor/google/gms" name="LordShen/vendor_google_gms" remote="gitlab" revision="11" clone-depth="1" />
+  <project path="vendor/gapps" name="LordShen/vendor_gapps" remote="gitlab" revision="11" clone-depth="1" />
 
   <!-- AOSP Projects -->
   <project path="build/blueprint" name="LineageOS/android_build_blueprint" groups="pdk,tradefed" />
