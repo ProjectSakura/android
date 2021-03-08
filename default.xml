@@ -55,6 +55,7 @@
   <project path="packages/apps/SakuraSettings" name="packages_apps_SakuraSettings" groups="pdk-fs" remote="sakura" /> 
   <project path="packages/apps/SakuraWidget" name="packages_apps_SakuraWidget" groups="pdk-fs" remote="sakura" />
   <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="sakura" /> 
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" groups="pdk-cw-fs,pdk-fs" remote="sakura" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="sakura" />   
   <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="sakura" />     
