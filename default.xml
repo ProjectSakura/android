@@ -42,13 +42,14 @@
   </project>
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="sakura" />  
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" groups="pdk-fs" remote="sakura"/>
-  <project path="external/motorola/faceunlock" name="LordShen/external_motorola_faceunlock" remote="gitlab" revision="11" />
+  <project path="external/faceunlock" name="LordShen/external_faceunlock" remote="gitlab" revision="11" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="sakura" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="sakura" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="sakura" />
   <project path="frameworks/support/lottie" name="frameworks_support_lottie" groups="pdk" remote="sakura" />
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="sakura" />  
-  <project path="lineage-sdk" name="lineage-sdk" remote="sakura" />  
+  <project path="lineage-sdk" name="lineage-sdk" remote="sakura" />
+  <project path="packages/apps/FaceUnlockService" name="LordShen/packages_apps_FaceUnlockService" remote="gitlab" revision="11" />  
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="sakura" />  
   <project path="packages/apps/OmniStyle" name="packages_apps_Omnistyle" groups="pdk-fs" remote="sakura"/>
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="sakura" /> 
