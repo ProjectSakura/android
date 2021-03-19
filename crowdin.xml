@@ -7,9 +7,11 @@
            sync-c="true" 
            sync-j="4"  />
   <project path="android" name="android" remote="sakura" />
-  <project path="crowdin" name="crowdin" remote="sakura" />
+  <project path="crowdin" name="crowdin" remote="sakura" revision="master" />
   <project path="frameworks/base" name="frameworks_base" remote="sakura" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="sakura" />
   <project path="packages/apps/SakuraSettings" name="packages_apps_SakuraSettings" remote="sakura" />
+  <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="sakura" /> 
+  <project path="vendor/addons" name="vendor_addons" remote="sakura" />
 
 </manifest>
