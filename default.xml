@@ -45,6 +45,7 @@
   <project path="external/faceunlock" name="LordShen/external_faceunlock" remote="gitlab" revision="11" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="sakura" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="sakura" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="sakura" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="sakura" />
   <project path="frameworks/support/lottie" name="frameworks_support_lottie" groups="pdk" remote="sakura" />
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="sakura" />  
@@ -466,7 +467,6 @@
   <project path="frameworks/libs/modules-utils" name="platform/frameworks/libs/modules-utils" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/libs/native_bridge_support" name="platform/frameworks/libs/native_bridge_support" groups="pdk" remote="aosp" />
   <project path="frameworks/libs/net" name="platform/frameworks/libs/net" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/libs/systemui" name="platform/frameworks/libs/systemui" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk" remote="aosp" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
