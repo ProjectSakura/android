@@ -26,6 +26,14 @@
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="sakura" />  
   <project path="frameworks/support/lottie" name="frameworks_support_lottie" groups="pdk" remote="sakura" />
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="sakura" />  
+  <!--Qcom-caf repos start -->
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="sakura" revision="lineage-18.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="sakura" revision="lineage-18.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="sakura" revision="lineage-18.1-caf-msm8998" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="sakura" revision="lineage-18.1-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="sakura" revision="lineage-18.1-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="sakura" revision="lineage-18.1-caf-sm8150" />  
+  <!--Qcom-caf repos end -->
   <project path="lineage-sdk" name="lineage-sdk" remote="sakura" />
   <project path="packages/apps/FaceUnlockService" name="LordShen/packages_apps_FaceUnlockService" remote="gitlab" revision="11" />  
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="sakura" />  
