@@ -50,7 +50,8 @@
   <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="sakura" />     
   <project path="prebuilts/prebuiltapks" name="prebuilts_prebuiltapks" remote="sakura" />
-  <project path="system/core" name="system_core" groups="pdk" remote="sakura" />  
+  <project path="system/core" name="system_core" groups="pdk" remote="sakura" />
+  <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="sakura"/>  
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="sakura" /> 
   <project path="vendor/addons" name="vendor_addons" remote="sakura" />
   <project path="vendor/lineage" name="vendor_sakura" remote="sakura" />   
