@@ -3,6 +3,7 @@
 
   <!--Project Sakura Additions -->
   <project path="android" name="android" remote="sakura" />  
+  <project path="bionic" name="android_bionic" groups="pdk" remote="sakura" />  
   <project path="build/make" name="build_make" groups="pdk" remote="sakura" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -52,6 +53,7 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="sakura" />     
   <project path="prebuilts/prebuiltapks" name="prebuilts_prebuiltapks" remote="sakura" />
   <project path="system/core" name="system_core" groups="pdk" remote="sakura" />
+  <project path="system/netd" name="system_netd" groups="pdk" remote="sakura" />  
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="sakura"/>  
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="sakura" /> 
   <project path="vendor/addons" name="vendor_addons" remote="sakura" />
