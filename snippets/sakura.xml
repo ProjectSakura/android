@@ -2,7 +2,8 @@
 <manifest>
 
   <!--Project Sakura Additions -->
-  <project path="android" name="android" remote="sakura" />  
+  <project path="android" name="android" remote="sakura" />
+  <project path="art" name="art" groups="pdk" remote="sakura" />  
   <project path="bionic" name="android_bionic" groups="pdk" remote="sakura" />  
   <project path="build/make" name="build_make" groups="pdk" remote="sakura" >
     <copyfile src="core/root.mk" dest="Makefile" />
