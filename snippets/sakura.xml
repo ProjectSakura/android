@@ -52,6 +52,7 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="sakura" />   
   <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="sakura" />     
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />  
   <project path="prebuilts/prebuiltapks" name="prebuilts_prebuiltapks" remote="sakura" />
   <project path="system/core" name="system_core" groups="pdk" remote="sakura" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="sakura" />  
