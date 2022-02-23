@@ -4,6 +4,9 @@
            fetch="https://github.com/ProjectSakura"
            revision="12" />
 
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
+
   <!--Project Sakura-->
   <project path="android" name="android" remote="sakura" />  
   <project path="external/colorkt" name="external_colorkt" remote="sakura" />
@@ -18,6 +21,7 @@
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="sakura" />
   <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="sakura" />
   <project path="system/core" name="system_core" groups="pdk" remote="sakura" />
+  <project path="vendor/gapps" name="LordShen/android_vendor_gapps" remote="gitlab" revision="12.0"/>
   <project path="vendor/lineage" name="vendor_sakura" remote="sakura" />
   <project path="vendor/support" name="vendor_support" remote="sakura" />
 
