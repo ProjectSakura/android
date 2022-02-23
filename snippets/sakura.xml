@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="sakura"
+           fetch="https://github.com/ProjectSakura"
+           revision="12" />
+
+  <!--Project Sakura-->
+  <project path="android" name="android" remote="sakura" />  
+  <project path="external/colorkt" name="external_colorkt" remote="sakura" />
+  <project path="external/themelib" name="external_themelib" remote="sakura" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="sakura" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="sakura" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="sakura" />
+  <project path="lineage-sdk" name="lineage-sdk" remote="sakura" />
+  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="sakura" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="sakura" />
+  <project path="packages/apps/SakuraSettings" name="packages_apps_SakuraSettings" groups="pdk-fs" remote="sakura" />
+  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="sakura" />
+  <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="sakura" />
+  <project path="system/core" name="system_core" groups="pdk" remote="sakura" />
+  <project path="vendor/lineage" name="vendor_sakura" remote="sakura" />
+  <project path="vendor/support" name="vendor_support" remote="sakura" />
+
+</manifest>
