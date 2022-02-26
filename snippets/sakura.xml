@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="sakura"
-           fetch="https://github.com/ProjectSakura"
-           revision="12" />
-
-  <remote name="gitlab"
-          fetch="https://gitlab.com" />
 
   <!--Project Sakura-->
-  <project path="android" name="android" remote="sakura" />  
+  <project path="android" name="android" remote="sakura" />
+  <project path="build/make" name="build_make" groups="pdk" remote="sakura" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="sakura" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project path="external/colorkt" name="external_colorkt" remote="sakura" />
   <project path="external/themelib" name="external_themelib" remote="sakura" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="sakura" />
