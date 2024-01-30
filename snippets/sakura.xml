@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="sakura"
+           fetch="https://github.com/ProjectSakura"
+           revision="14" />
+           
+  <remote  name="Sakura-Devices"
+           fetch="https://github.com/Sakura-Devices"
+           revision="14" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <!--Project Sakura Additions -->
+  <project path="android" name="android" remote="sakura" />
+  <project path="bionic" name="android_bionic" groups="pdk" remote="sakura" />  
+  <project path="build/make" name="build_make" groups="pdk" remote="sakura" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="sakura" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="sakura" />  
+
+  <!-- frameworks -->
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="sakura" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="sakura" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="sakura" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="sakura" />
+
+  <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="sakura" />
+  <project path="lineage-sdk" name="lineage-sdk" remote="sakura" />
+
+  <!-- packages/apps -->
+  <project path="packages/apps/Backgrounds" name="packages_apps_Backgrounds" remote="sakura" /> 
+  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="sakura" />  
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="sakura" /> 
+  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="sakura" />  
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="sakura" />  
+  <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="sakura" /> 
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="sakura" />     
+
+  <!-- packages/services -->
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="sakura" />   
+
+  <!-- system -->
+  <project path="system/core" name="system_core" groups="pdk" remote="sakura" />
+  <project path="system/netd" name="system_netd" groups="pdk" remote="sakura" />  
+  <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="sakura"/>  
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="sakura" /> 
+
+  <!-- vendor -->
+  <project path="vendor/lineage" name="vendor_sakura" remote="sakura" />
+    
+  <!-- Clang 17.0.4 -->
+  <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r498229b" remote="gitlab" revision="14.0" clone-depth="1" />
+</manifest>
