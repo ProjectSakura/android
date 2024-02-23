@@ -36,8 +36,9 @@
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" remote="sakura" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="sakura" />
 
+  <!-- hardware -->
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="sakura" />
-  <project path="lineage-sdk" name="lineage-sdk" remote="sakura" />
+  <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="sakura" />
 
   <!-- packages/apps -->
   <project path="packages/apps/Backgrounds" name="packages_apps_Backgrounds" remote="sakura" /> 
@@ -59,6 +60,9 @@
 
   <!-- vendor -->
   <project path="vendor/lineage" name="vendor_sakura" remote="sakura" />
+
+  <!-- SDK -->
+  <project path="lineage-sdk" name="lineage-sdk" remote="sakura" />
     
   <!-- Clang 17.0.4 -->
   <project path="prebuilts/clang/host/linux-x86/clang-latest" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r498229b" remote="gitlab" revision="14.0" clone-depth="1" />
