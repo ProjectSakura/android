@@ -29,7 +29,7 @@ repo init --depth=1 -u https://github.com/ProjectSakura/android.git -b 14
 ```
 Then to sync up:
 ```
-repo sync --current-branch --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j `nproc`
+repo sync
 ```
 ----------------
 
