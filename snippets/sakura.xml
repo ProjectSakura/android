@@ -78,6 +78,7 @@
   <project path="vendor/lineage" name="vendor_sakura" remote="sakura" />
   <project path="vendor/support" name="vendor_support" remote="sakura" />
   <project path="vendor/addons" name="vendor_addons" remote="sakura" />
+  <project path="vendor/certification" name="vendor_certification" remote="sakura" />
 
   <!-- SDK -->
   <project path="lineage-sdk" name="lineage-sdk" remote="sakura" />
