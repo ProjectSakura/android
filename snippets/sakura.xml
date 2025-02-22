@@ -18,6 +18,12 @@
            sync-j="4"
            revision="refs/heads/vic" />
 
+  <remote  name="ArmSM-codeberg"
+           fetch="https://codeberg.org/ArmSM"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/vic" />
+
   <!--Project Sakura Additions -->
   <project path="android" name="android" remote="sakura" revision="15" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="sakura" />
