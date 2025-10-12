@@ -52,6 +52,7 @@
 
   <!-- packages/apps -->
   <project path="packages/apps/Backgrounds" name="packages_apps_Backgrounds" remote="sakura" />
+  <project path="packages/apps/ColumbusService" name="android_packages_apps_ColumbusService" remote="sakura" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="sakura" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="sakura" />
   <!--<project path="packages/apps/SakuraSettings" name="packages_apps_SakuraSettings" groups="pdk-fs" remote="sakura" revision="15" />-->
