@@ -14,7 +14,9 @@
 
   <!--Project Sakura Additions -->
   <project path="android" name="android" remote="sakura" revision="16" />
+  <project path="art" name="android_art" groups="pdk" remote="sakura" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="sakura" />
+  <project path="bootable/deprecated-ota" name="android_bootable_deprecated-ota" groups="pdk-cw" remote="sakura" />
   <project path="build/make" name="build_make" groups="pdk" remote="sakura" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -31,6 +33,8 @@
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="sakura" />
 
   <!-- External -->
+  <project path="external/bouncycastle" name="android_external_bouncycastle" groups="pdk" remote="sakura" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="sakura" />
   <project path="external/FadingEdgeLayout" name="android_external_FadingEdgeLayout" remote="sakura" revision="15"/>
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="sakura"/>
 
@@ -43,6 +47,8 @@
   <!-- hardware -->
   <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="sakura" />
   <project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk,sysui-studio" />
+
+  <project path="kernel/configs" name="android_kernel_configs" groups="vts,pdk" remote="sakura" />
 
   <!-- packages/apps -->
   <project path="packages/apps/Backgrounds" name="packages_apps_Backgrounds" remote="sakura" />
@@ -65,6 +71,10 @@
   <project path="system/core" name="system_core" groups="pdk" remote="sakura" />
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="sakura"/>
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="sakura" />
+  <project path="system/bpf" name="android_system_bpf" groups="pdk" remote="sakura" />
+  <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="sakura" />
+  <project path="system/libhidl" name="android_system_libhidl" groups="pdk,sysui-studio" remote="sakura" />
+  <project path="system/security" name="android_system_security" groups="pdk" remote="sakura" />
 
   <!-- vendor -->
   <!--<project path="vendor/gms" name="vendor_gms_vic" remote="evo-bitbucket" clone-depth="1" />-->
