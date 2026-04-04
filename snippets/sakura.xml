@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="sakura"
+           fetch="https://github.com/ProjectSakura"
+           revision="16.2" />
+
+  <remote  name="Sakura-Devices"
+           fetch="https://github.com/Sakura-Devices"
+           revision="16" />
+
+  <remote  name="sakura-lfs"
+           fetch="https://codeberg.org/ProjectSakura"/>
+
+  <!--Project Sakura Additions -->
+  <project path="android" name="android" remote="sakura" revision="16.2"/>
+  <project path="art" name="android_art" groups="pdk" remote="sakura" />
+  <project path="bionic" name="android_bionic" groups="pdk" remote="sakura" />
+  <project path="build/make" name="build_make" groups="pdk,sysui-studio" remote="sakura" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed,sysui-studio" remote="sakura" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="sakura" />
+
+  <!-- External -->
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" groups="pdk" remote="sakura" />
+  <project path="external/bouncycastle" name="android_external_bouncycastle" groups="pdk" remote="sakura" />
+  <project path="external/FadingEdgeLayout" name="android_external_FadingEdgeLayout" remote="sakura" />
+  <project path="external/jemalloc_new" name="external_jemalloc_new" groups="pdk" remote="sakura"/>
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="sakura"/>
+
+  <!-- frameworks -->
+  <project path="frameworks/av" name="frameworks_av" groups="pdk,sysui-studio" remote="sakura" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="sakura" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="sakura" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="sakura" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk,sysui-studio" remote="sakura" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk,sysui-studio" remote="sakura" />
+
+
+  <!-- hardware -->
+  <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk,sysui-studio" remote="sakura" />
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" groups="qcom" revision="16.0-caf-sm8150" remote="sakura"/>
+  <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" groups="qcom" revision="16.0-caf-sm8350" remote="sakura"/>
+  <project path="hardware/qcom-caf/sm8750/display/hal" name="android_hardware_qcom_display" groups="qcom" revision="16.0-caf-sm8750" remote="sakura" />
+
+  <project path="kernel/configs" name="android_kernel_configs" groups="vts,pdk" remote="sakura" />
+
+  <project path="libcore" name="libcore" groups="pdk" remote="sakura" />
+
+  <!-- packages/apps -->
+  <project path="packages/apps/Backgrounds" name="packages_apps_Backgrounds" remote="sakura" />
+  <project path="packages/apps/ColumbusService" name="android_packages_apps_ColumbusService" remote="sakura" />
+  <project path="packages/apps/SakuraSettings" name="packages_apps_SakuraSettings" remote="sakura" />
+  <project path="packages/apps/FaceUnlock" name="android_packages_apps_FaceUnlock" remote="sakura-lfs" revision="16.0" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="sakura" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="sakura" />
+  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="sakura" />
+  <project path="packages/apps/LMOFreeform" name="packages_apps_LMOFreeform" remote="sakura" />
+  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="sakura" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="sakura" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" groups="pdk-fs" remote="sakura" />
+  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="sakura" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="sakura" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="sakura" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="sakura" />
+  
+  <!-- packages/services -->
+  <project path="packages/services/DeviceAsWebcam" name="packages_services_DeviceAsWebcam" groups="pdk-cw-fs,pdk-fs" remote="sakura" />
+  <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" groups="pdk-cw-fs,pdk-fs" remote="sakura" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="sakura" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="sakura" />
+
+  <!-- modules -->
+  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk" remote="sakura" />
+  <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="sakura" />
+  <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="sakura" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" remote="sakura" />
+
+
+  <!-- inputmethod -->
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" groups="pdk-fs" remote="sakura" />
+
+  <!-- system -->
+  <project path="system/core" name="android_system_core" groups="pdk" remote="sakura" />
+  <project path="system/memory/libmeminfo" name="system_memory_libmeminfo" groups="pdk" remote="sakura"/>
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="sakura" />
+  <project path="system/vold" name="system_vold" groups="pdk" remote="sakura"/>
+  <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="sakura"/>
+
+  <!-- vendor -->
+  <project path="vendor/gapps" name="vendor_gapps" remote="sakura-lfs" revision="16.2" />
+  <project path="vendor/lineage" name="vendor_sakura" remote="sakura" />
+  <project path="vendor/addons" name="vendor_addons" remote="sakura" />
+  <project path="vendor/certification" name="vendor_certification" remote="sakura" revision="16.2" />
+
+  <!-- SDK -->
+  <project path="lineage-sdk" name="lineage-sdk" remote="sakura" />
+</manifest>
