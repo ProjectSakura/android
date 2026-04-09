@@ -58,6 +58,7 @@
   <project path="libcore" name="libcore" groups="pdk" remote="sakura" />
 
   <!-- packages/apps -->
+  <project path="packages/apps/AxThemeStore" name="packages_apps_AxThemeStore" remote="sakura" />
   <project path="packages/apps/Backgrounds" name="packages_apps_Backgrounds" remote="sakura" />
   <project path="packages/apps/ColumbusService" name="android_packages_apps_ColumbusService" remote="sakura" />
   <project path="packages/apps/SakuraSettings" name="packages_apps_SakuraSettings" remote="sakura" />
