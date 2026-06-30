@@ -3,7 +3,7 @@
 
   <remote  name="sakura"
            fetch="https://github.com/ProjectSakura"
-           revision="16.2" />
+           revision="16.3" />
 
   <remote  name="Sakura-Devices"
            fetch="https://github.com/Sakura-Devices"
@@ -13,7 +13,7 @@
            fetch="https://codeberg.org/ProjectSakura"/>
 
   <!--Project Sakura Additions -->
-  <project path="android" name="android" remote="sakura" revision="16.2"/>
+  <project path="android" name="android" remote="sakura" revision="16.3"/>
   <project path="art" name="android_art" groups="pdk" remote="sakura" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="sakura" revision="16.3" />
   <project path="build/make" name="build_make" groups="pdk,sysui-studio" remote="sakura" revision="16.3" >
@@ -74,12 +74,15 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="sakura" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="sakura" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="sakura" />
-  
+  <project path="packages/apps/AppLocker" name="packages_apps_AppLocker" groups="pdk-fs" remote="sakura" revision="16.3" />  
+  <project path="packages/apps/Sandbox" name="packages_apps_Sandbox" groups="pdk-fs,sysui-studio" remote="sakura" revision="16.3" />  
+
   <!-- packages/services -->
   <project path="packages/services/DeviceAsWebcam" name="packages_services_DeviceAsWebcam" groups="pdk-cw-fs,pdk-fs" remote="sakura" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" groups="pdk-cw-fs,pdk-fs" remote="sakura" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="sakura" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="sakura" />
+  <project path="packages/services/AxQuickLook" name="packages_services_AxQuickLook" remote="sakura" revision="16.3" />
 
   <!-- modules -->
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk" remote="sakura" />
